@@ -35,10 +35,10 @@ padding:0;
 font-family:'Montserrat';
 font-size:18px;
 background-color:#FDFCEF;
-background-image:url(../public/images/abstractfirebloom.png);
+ackground-image:url(../public/images/abstractfirebloom.png);
 webkit-filter:blur(135px);
 background-size:cover;
-ackground-repeat:no-repeat;
+background-repeat:no-repeat;
 ackground-attachment:fixed;
 box-shadow:inset 1280px 844px rgb(9 16 255 / 0%)
 }
