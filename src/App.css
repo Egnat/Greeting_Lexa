@@ -66,11 +66,11 @@ box-shadow:inset 1280px 844px rgb(9 16 255 / 0%);
 }
 
 .header-container {
-padding-top:55px
+padding-top:55p
 }
 
 .link {
-    position: absolute;
+    position: ;
     top: 33px;
     left: 1216px;
 }
@@ -81,7 +81,7 @@ padding-top:55px
 }
 
 .navigation {
-margin-bottom:400px;
+padding-top:55px;
 -webkit-filter:blur(10p)
 }
 
@@ -97,7 +97,8 @@ height:50px
 }
 
 .header-container__content {
-display:flex
+display:flex;
+padding-top:400px;
 }
 
 .header-text__h1 {
@@ -121,7 +122,7 @@ object-fit:scale-down;
 background-image:url(../public/images/hand.png);
 background-size:cover;
 ransform:matrix(-1,0,0,1,0,0);
--webkit-filter:blur(1px)
+-webkit-filter:blur(1p)
 }
 
 .filter-lake {
