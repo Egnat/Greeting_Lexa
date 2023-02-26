@@ -70,7 +70,7 @@ padding-top:55p
 }
 
 .link {
-    position: ;
+    position: absolute;
     top: 33px;
     left: 1216px;
 }
@@ -81,7 +81,7 @@ padding-top:55p
 }
 
 .navigation {
-padding-top:55px;
+padding-top:60px;
 -webkit-filter:blur(10p)
 }
 
@@ -97,8 +97,8 @@ height:50px
 }
 
 .header-container__content {
-display:flex;
-padding-top:400px;
+isplay:flex;
+padding-top:400p;
 }
 
 .header-text__h1 {
@@ -112,12 +112,20 @@ letter-spacing:.035em;
 color:#fff
 }
 
+.common {
+   position: absolute;
+   top: 603px;
+    left: 399px;
+}
+
 .filter-hand {
+    position: absolute;
 isplay:block;
-margin:0 auto;
+margin:0;
 width:451px;
 height:278px;
-margin-top:148px;
+
+margin-top:148p;
 object-fit:scale-down;
 background-image:url(../public/images/hand.png);
 background-size:cover;
@@ -130,8 +138,8 @@ position:absolute;
 display:block;
 width:198px;
 height:150px;
-top:297px;
-left:1060px;
+bottom: 166px;
+left: 665px;
 border-radius:69px;
 background-image:url(../public/images/images-1-2-3.png);
 background-size:cover;
@@ -143,8 +151,8 @@ box-shadow:inset 1280px 844px rgb(9 16 255 / 0%)
 position: absolute;
 width: 221p;
 height: 145p;
-right: 499px;
-bottom: 41px;
+top: 22px;
+left: 156px;
 margin: 0;
 ackground-image: url(../public/images/box-benzin-preview.png);/*treeth-benzin-preview-1-2.png*/
 background-size: cover;
@@ -162,8 +170,8 @@ width:211px
 .photoOff_filter-flowers {
 position:absolute;
 display:none;
-bottom:272px;
-left:414px;
+bottom: -15px;
+left: 37px;
 margin:0
 }
 
