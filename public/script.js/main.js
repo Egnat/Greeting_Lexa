@@ -45,11 +45,11 @@ cardAdd.addEventListener('click', (event) => {/*нажимаем на шишку
   event.stopPropagation();//чтоб событие не всплывало 
   const photoOff = document.querySelector('.photoOff_filter-flowers');
     newText.innerHTML = "Поздравляю с рождением сына !";
-  if (photoOff.style.display == "flex") { // если элемент найден // 
+  if (photoOff.style.display == "block") { // если элемент найден // 
     photoOff.style.display = "none";
     return true;
   } else { // иначе он не найден
-    photoOff.style.display = "flex";
+    photoOff.style.display = "block";
     return false;
   }
   //alert("hi");
@@ -92,5 +92,5 @@ setInterval(() => {
   for (let i = 0; i < paragraphs.length; i++) {
     paragraphs[i].style.color = colorNames[random(0)];
   }
-}, 2000);
+}, 3000);
 console.log(colorNames);
